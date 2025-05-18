@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="dynamic_choice">
+    <dynamic_choice action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <choice_set display_value="Rented to / Leased from">343a6742936162900b58f1d97bba1011</choice_set>
+        <label>External Consumer</label>
+        <name>external_consumer</name>
+        <order>200</order>
+        <sys_class_name>dynamic_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-18 08:39:44</sys_created_on>
+        <sys_id>dd1be74a932162900b58f1d97bba1034</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>External Consumer</sys_name>
+        <sys_package display_value="Scalable Attribute Management" source="x_1542811_scalab_0">e9c69fc293ed22900b58f1d97bba1045</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Scalable Attribute Management">e9c69fc293ed22900b58f1d97bba1045</sys_scope>
+        <sys_update_name>dynamic_choice_dd1be74a932162900b58f1d97bba1034</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-18 08:39:44</sys_updated_on>
+    </dynamic_choice>
+</record_update>

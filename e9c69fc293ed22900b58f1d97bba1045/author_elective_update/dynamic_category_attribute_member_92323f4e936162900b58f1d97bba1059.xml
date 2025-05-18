@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="dynamic_category_attribute_member">
+    <dynamic_category_attribute_member action="DELETE">
+        <active>true</active>
+        <attribute display_value="scalable_attribute_management_cmdb_attributes-&gt;scalable_attribute_management_rented_to">f335278a932162900b58f1d97bba10ee</attribute>
+        <category display_value="Virtual Private Network (cmdb_ci_vpn)">778eefc6936162900b58f1d97bba1011</category>
+        <order>100</order>
+        <sys_class_name>dynamic_category_attribute_member</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-18 09:10:23</sys_created_on>
+        <sys_id>92323f4e936162900b58f1d97bba1059</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Scalable Attribute Management" source="x_1542811_scalab_0">e9c69fc293ed22900b58f1d97bba1045</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Scalable Attribute Management">e9c69fc293ed22900b58f1d97bba1045</sys_scope>
+        <sys_update_name>dynamic_category_attribute_member_92323f4e936162900b58f1d97bba1059</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-18 09:10:23</sys_updated_on>
+    </dynamic_category_attribute_member>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Scalable Attribute Management">e9c69fc293ed22900b58f1d97bba1045</application>
+        <file_path/>
+        <instance_id>f7625ff23b9c6a10a36804e0b5e45a8e</instance_id>
+        <instance_name>dev302733</instance_name>
+        <name>dynamic_category_attribute_member_92323f4e936162900b58f1d97bba1059</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="dynamic_category_attribute_member"><dynamic_category_attribute_member action="INSERT_OR_UPDATE"><active>true</active><attribute display_value="scalable_attribute_management_cmdb_attributes-&gt;scalable_attribute_management_rented_to">f335278a932162900b58f1d97bba10ee</attribute><category display_value="Virtual Private Network (cmdb_ci_vpn)">778eefc6936162900b58f1d97bba1011</category><order>100</order><sys_class_name>dynamic_category_attribute_member</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-18 09:10:23</sys_created_on><sys_id>92323f4e936162900b58f1d97bba1059</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Scalable Attribute Management" source="x_1542811_scalab_0">e9c69fc293ed22900b58f1d97bba1045</sys_package><sys_policy/><sys_scope display_value="Scalable Attribute Management">e9c69fc293ed22900b58f1d97bba1045</sys_scope><sys_update_name>dynamic_category_attribute_member_92323f4e936162900b58f1d97bba1059</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-18 09:10:23</sys_updated_on></dynamic_category_attribute_member></record_update>]]></payload>
+        <payload_hash>831172949</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>0640af42932162900b58f1d97bba102c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-18 09:10:23</sys_created_on>
+        <sys_id>2732fb4e936162900b58f1d97bba1089</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196e2a89f770000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-18 09:10:23</sys_updated_on>
+        <type>Dynamic Category Attribute Member</type>
+        <update_guid>2b32fb4e896162905e0f6c85a445e088</update_guid>
+        <update_guid_history>2b32fb4e896162905e0f6c85a445e088:831172949</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">91e035da936d62900b58f1d97bba1008</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-18 18:23:44</sys_created_on>
+        <sys_db_object display_value="" name="dynamic_category_attribute_member">dynamic_category_attribute_member</sys_db_object>
+        <sys_id>23a0ca63ee124145917885f06ef836f9</sys_id>
+        <sys_metadata>92323f4e936162900b58f1d97bba1059</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Scalable Attribute Management" source="x_1542811_scalab_0">e9c69fc293ed22900b58f1d97bba1045</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Scalable Attribute Management">e9c69fc293ed22900b58f1d97bba1045</sys_scope>
+        <sys_scope_delete display_value="">39dbb6283add4724ac764ca1fd6ad2c4</sys_scope_delete>
+        <sys_update_name>dynamic_category_attribute_member_92323f4e936162900b58f1d97bba1059</sys_update_name>
+        <sys_update_version display_value="dynamic_category_attribute_member_92323f4e936162900b58f1d97bba1059">2732fb4e936162900b58f1d97bba1089</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-18 18:23:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

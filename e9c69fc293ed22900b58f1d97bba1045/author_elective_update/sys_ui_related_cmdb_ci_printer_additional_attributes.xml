@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related action="DELETE" sys_domain="global" table="cmdb_ci_printer" version="2" view="additional_attributes">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Printer - Additional Attributes" name="cmdb_ci_printer" related_list="NULL" sys_domain="global" view="9775501e932562900b58f1d97bba1043">7eb590d2936562900b58f1d97bba109e</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>cmdb_printer_instance.printer</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-18 11:45:27</sys_created_on>
+            <sys_id>3ab590d2936562900b58f1d97bba109f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-18 11:45:27</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Printer - Additional Attributes" name="cmdb_ci_printer" related_list="NULL" sys_domain="global" view="9775501e932562900b58f1d97bba1043">7eb590d2936562900b58f1d97bba109e</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>cmdb_ci_network_adapter.cmdb_ci</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-18 11:45:27</sys_created_on>
+            <sys_id>3eb590d2936562900b58f1d97bba109f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-18 11:45:27</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Printer - Additional Attributes" name="cmdb_ci_printer" related_list="NULL" sys_domain="global" view="9775501e932562900b58f1d97bba1043">7eb590d2936562900b58f1d97bba109e</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>cmdb_serial_number.cmdb_ci</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-18 11:45:27</sys_created_on>
+            <sys_id>32b590d2936562900b58f1d97bba10a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-18 11:45:27</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Printer - Additional Attributes" name="cmdb_ci_printer" related_list="NULL" sys_domain="global" view="9775501e932562900b58f1d97bba1043">7eb590d2936562900b58f1d97bba109e</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>REL:80a164460ab30152004422b3fb69ca1e</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-18 11:45:27</sys_created_on>
+            <sys_id>36b590d2936562900b58f1d97bba10a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-18 11:45:27</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Printer - Additional Attributes" name="cmdb_ci_printer" related_list="NULL" sys_domain="global" view="9775501e932562900b58f1d97bba1043">7eb590d2936562900b58f1d97bba109e</list_id>
+            <order_by/>
+            <position>4</position>
+            <related_list>REL:8203b8b30ab301520035533a59ed530f</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-18 11:45:27</sys_created_on>
+            <sys_id>3ab590d2936562900b58f1d97bba10a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-18 11:45:27</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Printer - Additional Attributes" name="cmdb_ci_printer" related_list="NULL" sys_domain="global" view="9775501e932562900b58f1d97bba1043">7eb590d2936562900b58f1d97bba109e</list_id>
+            <order_by/>
+            <position>5</position>
+            <related_list>x_1542811_scalab_0_attribute_definition.configuration_item</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-18 11:45:27</sys_created_on>
+            <sys_id>3eb590d2936562900b58f1d97bba10a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-18 11:45:27</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Printer - Additional Attributes</calculated_name>
+            <filter/>
+            <name>cmdb_ci_printer</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-18 11:45:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7eb590d2936562900b58f1d97bba109e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Printer - Additional Attributes</sys_name>
+            <sys_package display_value="Scalable Attribute Management" source="x_1542811_scalab_0">e9c69fc293ed22900b58f1d97bba1045</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Scalable Attribute Management">e9c69fc293ed22900b58f1d97bba1045</sys_scope>
+            <sys_update_name>sys_ui_related_cmdb_ci_printer_additional_attributes</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-18 11:45:27</sys_updated_on>
+            <sys_user/>
+            <view display_value="Additional Attributes" name="additional_attributes">9775501e932562900b58f1d97bba1043</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Scalable Attribute Management">e9c69fc293ed22900b58f1d97bba1045</application>
+        <file_path/>
+        <instance_id>f7625ff23b9c6a10a36804e0b5e45a8e</instance_id>
+        <instance_name>dev302733</instance_name>
+        <name>sys_ui_related_cmdb_ci_printer_additional_attributes</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_related sys_domain="global" table="cmdb_ci_printer" version="2" view="additional_attributes"><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Printer - Additional Attributes" name="cmdb_ci_printer" related_list="NULL" sys_domain="global" view="9775501e932562900b58f1d97bba1043">7eb590d2936562900b58f1d97bba109e</list_id><order_by/><position>0</position><related_list>cmdb_printer_instance.printer</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-18 11:45:27</sys_created_on><sys_id>3ab590d2936562900b58f1d97bba109f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-18 11:45:27</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Printer - Additional Attributes" name="cmdb_ci_printer" related_list="NULL" sys_domain="global" view="9775501e932562900b58f1d97bba1043">7eb590d2936562900b58f1d97bba109e</list_id><order_by/><position>1</position><related_list>cmdb_ci_network_adapter.cmdb_ci</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-18 11:45:27</sys_created_on><sys_id>3eb590d2936562900b58f1d97bba109f</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-18 11:45:27</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Printer - Additional Attributes" name="cmdb_ci_printer" related_list="NULL" sys_domain="global" view="9775501e932562900b58f1d97bba1043">7eb590d2936562900b58f1d97bba109e</list_id><order_by/><position>2</position><related_list>cmdb_serial_number.cmdb_ci</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-18 11:45:27</sys_created_on><sys_id>32b590d2936562900b58f1d97bba10a0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-18 11:45:27</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Printer - Additional Attributes" name="cmdb_ci_printer" related_list="NULL" sys_domain="global" view="9775501e932562900b58f1d97bba1043">7eb590d2936562900b58f1d97bba109e</list_id><order_by/><position>3</position><related_list>REL:80a164460ab30152004422b3fb69ca1e</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-18 11:45:27</sys_created_on><sys_id>36b590d2936562900b58f1d97bba10a0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-18 11:45:27</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Printer - Additional Attributes" name="cmdb_ci_printer" related_list="NULL" sys_domain="global" view="9775501e932562900b58f1d97bba1043">7eb590d2936562900b58f1d97bba109e</list_id><order_by/><position>4</position><related_list>REL:8203b8b30ab301520035533a59ed530f</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-18 11:45:27</sys_created_on><sys_id>3ab590d2936562900b58f1d97bba10a0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-18 11:45:27</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Printer - Additional Attributes" name="cmdb_ci_printer" related_list="NULL" sys_domain="global" view="9775501e932562900b58f1d97bba1043">7eb590d2936562900b58f1d97bba109e</list_id><order_by/><position>5</position><related_list>x_1542811_scalab_0_attribute_definition.configuration_item</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-18 11:45:27</sys_created_on><sys_id>3eb590d2936562900b58f1d97bba10a0</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-18 11:45:27</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list action="INSERT_OR_UPDATE"><calculated_name>Printer - Additional Attributes</calculated_name><filter/><name>cmdb_ci_printer</name><order_by/><position/><related_list/><sys_class_name>sys_ui_related_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-18 11:45:27</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7eb590d2936562900b58f1d97bba109e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Printer - Additional Attributes</sys_name><sys_package display_value="Scalable Attribute Management" source="x_1542811_scalab_0">e9c69fc293ed22900b58f1d97bba1045</sys_package><sys_policy/><sys_scope display_value="Scalable Attribute Management">e9c69fc293ed22900b58f1d97bba1045</sys_scope><sys_update_name>sys_ui_related_cmdb_ci_printer_additional_attributes</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-18 11:45:27</sys_updated_on><sys_user/><view display_value="Additional Attributes" name="additional_attributes">9775501e932562900b58f1d97bba1043</view><view_name/></sys_ui_related_list></sys_ui_related></record_update>]]></payload>
+        <payload_hash>-789321977</payload_hash>
+        <record_name>Printer</record_name>
+        <reverted_from/>
+        <source>0640af42932162900b58f1d97bba102c</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-18 11:45:27</sys_created_on>
+        <sys_id>32b590d2936562900b58f1d97bba10a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196e336949d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-18 11:45:27</sys_updated_on>
+        <type>Related Lists</type>
+        <update_guid>b6b590d2a1656290adde771a152c87a2</update_guid>
+        <update_guid_history>b6b590d2a1656290adde771a152c87a2:-789321977,25959c92b9656290bbf924022d911545:1345991743,2375501ea4256290ce8660068173224c:-1458549393</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-18 12:02:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_related_list">sys_ui_related_list</sys_db_object>
+        <sys_id>6eeb06ee152b4fc8bfd036abdc7d20b1</sys_id>
+        <sys_metadata>7eb590d2936562900b58f1d97bba109e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Printer - Additional Attributes</sys_name>
+        <sys_package display_value="Scalable Attribute Management" source="x_1542811_scalab_0">e9c69fc293ed22900b58f1d97bba1045</sys_package>
+        <sys_parent display_value="CMDB CI Printer">2e0bdeb2154022104f3415f71eacd9e7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Scalable Attribute Management">e9c69fc293ed22900b58f1d97bba1045</sys_scope>
+        <sys_scope_delete display_value="">39dbb6283add4724ac764ca1fd6ad2c4</sys_scope_delete>
+        <sys_update_name>sys_ui_related_cmdb_ci_printer_additional_attributes</sys_update_name>
+        <sys_update_version display_value="sys_ui_related_cmdb_ci_printer_additional_attributes">32b590d2936562900b58f1d97bba10a3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-18 12:02:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

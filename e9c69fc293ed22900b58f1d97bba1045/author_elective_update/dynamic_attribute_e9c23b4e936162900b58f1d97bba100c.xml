@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="dynamic_attribute">
+    <dynamic_attribute action="DELETE">
+        <active>true</active>
+        <choice_set display_value="Rented to / Leased from">343a6742936162900b58f1d97bba1011</choice_set>
+        <description/>
+        <group display_value="CMDB Rented Attributes">34b4e74a932162900b58f1d97bba10d9</group>
+        <internal_type display_value="String">string</internal_type>
+        <label>Leased from</label>
+        <name>scalable_attribute_management_leased_from</name>
+        <order>100</order>
+        <path>scalable_attribute_management_cmdb_attributes-&gt;scalable_attribute_management_leased_from</path>
+        <read_only>false</read_only>
+        <required>false</required>
+        <sys_class_name>dynamic_attribute</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-18 09:13:42</sys_created_on>
+        <sys_id>e9c23b4e936162900b58f1d97bba100c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>scalable_attribute_management_cmdb_attributes-&gt;scalable_attribute_management_leased_from</sys_name>
+        <sys_package display_value="Scalable Attribute Management" source="x_1542811_scalab_0">e9c69fc293ed22900b58f1d97bba1045</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Scalable Attribute Management">e9c69fc293ed22900b58f1d97bba1045</sys_scope>
+        <sys_update_name>dynamic_attribute_e9c23b4e936162900b58f1d97bba100c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-18 18:20:30</sys_updated_on>
+    </dynamic_attribute>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Scalable Attribute Management">e9c69fc293ed22900b58f1d97bba1045</application>
+        <file_path/>
+        <instance_id>f7625ff23b9c6a10a36804e0b5e45a8e</instance_id>
+        <instance_name>dev302733</instance_name>
+        <name>dynamic_attribute_e9c23b4e936162900b58f1d97bba100c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="dynamic_attribute"><dynamic_attribute action="INSERT_OR_UPDATE"><active>true</active><choice_set display_value="Rented to / Leased from">343a6742936162900b58f1d97bba1011</choice_set><description/><group display_value="CMDB Rented Attributes">34b4e74a932162900b58f1d97bba10d9</group><internal_type display_value="String">string</internal_type><label>Leased from</label><name>scalable_attribute_management_leased_from</name><order>100</order><path>scalable_attribute_management_cmdb_attributes-&gt;scalable_attribute_management_leased_from</path><read_only>false</read_only><required>false</required><sys_class_name>dynamic_attribute</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-18 09:13:42</sys_created_on><sys_id>e9c23b4e936162900b58f1d97bba100c</sys_id><sys_mod_count>3</sys_mod_count><sys_name>scalable_attribute_management_cmdb_attributes-&gt;scalable_attribute_management_leased_from</sys_name><sys_package display_value="Scalable Attribute Management" source="x_1542811_scalab_0">e9c69fc293ed22900b58f1d97bba1045</sys_package><sys_policy/><sys_scope display_value="Scalable Attribute Management">e9c69fc293ed22900b58f1d97bba1045</sys_scope><sys_update_name>dynamic_attribute_e9c23b4e936162900b58f1d97bba100c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-18 18:20:30</sys_updated_on></dynamic_attribute></record_update>]]></payload>
+        <payload_hash>-1855444998</payload_hash>
+        <record_name>scalable_attribute_management_cmdb_attributes-&gt;scalable_attribute_management_leased_from</record_name>
+        <reverted_from/>
+        <source>0640af42932162900b58f1d97bba102c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-18 18:20:30</sys_created_on>
+        <sys_id>b520f95a936d62900b58f1d97bba10ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196e4a0424e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-18 18:20:30</sys_updated_on>
+        <type>Dynamic Attribute</type>
+        <update_guid>f920f95a4f6d6290e88d0407049e94ec</update_guid>
+        <update_guid_history>f920f95a4f6d6290e88d0407049e94ec:-1855444998,3c62915ef1a962902b0c41ff94417696:1846894818,2722111e36a96290fe8fb21c936a13ba:635526369,8403fb4e176162902f2dd9f6d7852368:1675978321</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="scalable_attribute_management_cmdb_attributes-&gt;scalable_attribute_management_lea">b530715a936d62900b58f1d97bba10ab</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-18 18:20:48</sys_created_on>
+        <sys_db_object display_value="" name="dynamic_attribute">dynamic_attribute</sys_db_object>
+        <sys_id>c9954bce4d3042d8aee39549cf7ca209</sys_id>
+        <sys_metadata>e9c23b4e936162900b58f1d97bba100c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>scalable_attribute_management_cmdb_attributes-&gt;scalable_attribute_management_leased_from</sys_name>
+        <sys_package display_value="Scalable Attribute Management" source="x_1542811_scalab_0">e9c69fc293ed22900b58f1d97bba1045</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Scalable Attribute Management">e9c69fc293ed22900b58f1d97bba1045</sys_scope>
+        <sys_scope_delete display_value="">39dbb6283add4724ac764ca1fd6ad2c4</sys_scope_delete>
+        <sys_update_name>dynamic_attribute_e9c23b4e936162900b58f1d97bba100c</sys_update_name>
+        <sys_update_version display_value="dynamic_attribute_e9c23b4e936162900b58f1d97bba100c">b520f95a936d62900b58f1d97bba10ed</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-18 18:20:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

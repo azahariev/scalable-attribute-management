@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1542811_scalab_0.AttributeDefinitionHelper</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>AttributeDefinitionHelper</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var AttributeDefinitionHelper = Class.create();
+AttributeDefinitionHelper.prototype = {
+    initialize: function() {},
+
+    /*
+     * Updates the Dynamic Attribute Store field 'attribute_value' for the given record.
+     * Sets the 'scalable_attribute_management_rented_to' dynamic attribute to the current user's display name.
+     *
+     * @param {String} recordSysId - The sys_id of the 'x_1542811_scalab_0_attribute_definition' record to update.
+     */
+
+    updateDynamicAttributes: function(recordSysId) {
+        if (!recordSysId) {
+            gs.error("No sys_id provided to updateDynamicAttributes");
+            return;
+        }
+
+        var attDef = new GlideRecord('x_1542811_scalab_0_attribute_definition');
+        if (!attDef.get(recordSysId)) {
+            gs.error("No attribute definition found for sys_id: " + recordSysId);
+            return;
+        }
+
+        if (!attDef.attribute) {
+            gs.error("Attribute field is empty for sys_id: " + recordSysId);
+            return;
+        }
+
+        var ids = attDef.attribute.split(',');
+        var dynAtt = new GlideRecord('dynamic_attribute');
+        dynAtt.addQuery('sys_id', 'IN', ids.join(','));
+		dynAtt.addActiveQuery();
+        dynAtt.query();
+
+        var das = new GlideDynamicAttributeStore();
+
+        while (dynAtt.next()) {
+            if (dynAtt.name == "scalable_attribute_management_table") {
+                das.setDynamicAttributeValue(dynAtt.getDisplayValue(), "sys_user");
+            }
+			else if (dynAtt.name == "scalable_attribute_management_sys_id") {
+                das.setDynamicAttributeValue(dynAtt.getDisplayValue(), gs.getUserID());
+            }
+			else if (dynAtt.name == "scalable_attribute_management_display_name") {
+                das.setDynamicAttributeValue(dynAtt.getDisplayValue(), gs.getUserDisplayName());
+            }
+			else if (dynAtt.name == "scalable_attribute_management_date") {
+				das.setDynamicAttributeValue(dynAtt.getDisplayValue(), new GlideDate().getDisplayValue());
+			}
+			else {
+				das.setDynamicAttributeValue(dynAtt.getDisplayValue(), "THIS IS NOT DEFINED YET");
+			}
+        }
+
+        attDef.setValue('attribute_value', "");
+        attDef.setDynamicAttributeValues('attribute_value', das);
+        attDef.update();
+    },
+
+    getAttributeSysIds: function(inputCategory) {
+        var results = '';
+
+        var dynCAM = new GlideRecord('dynamic_category_attribute_member');
+        dynCAM.addQuery('category', inputCategory);
+        dynCAM.query();
+
+        while (dynCAM.next()) {
+            if (dynCAM.attribute) {
+                results += (dynCAM.attribute.toString() + ',');
+            }
+        }
+
+        return results;
+    },
+
+    type: 'AttributeDefinitionHelper'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-18 14:43:17</sys_created_on>
+        <sys_id>1ebd389e932962900b58f1d97bba10bd</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>AttributeDefinitionHelper</sys_name>
+        <sys_package display_value="Scalable Attribute Management" source="x_1542811_scalab_0">e9c69fc293ed22900b58f1d97bba1045</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Scalable Attribute Management">e9c69fc293ed22900b58f1d97bba1045</sys_scope>
+        <sys_update_name>sys_script_include_1ebd389e932962900b58f1d97bba10bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-18 18:48:39</sys_updated_on>
+    </sys_script_include>
+</record_update>

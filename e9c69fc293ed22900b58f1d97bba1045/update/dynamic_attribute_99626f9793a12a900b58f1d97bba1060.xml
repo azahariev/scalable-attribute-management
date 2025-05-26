@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="dynamic_attribute">
+    <dynamic_attribute action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <choice_set/>
+        <description/>
+        <group display_value="Rented from">b47dd7df93612a900b58f1d97bba10fa</group>
+        <internal_type display_value="String">string</internal_type>
+        <label>source</label>
+        <name>scalable_attribute_management_source</name>
+        <order>500</order>
+        <path>scalable_attribute_management_rented_from-&gt;scalable_attribute_management_source</path>
+        <read_only>false</read_only>
+        <required>false</required>
+        <sys_class_name>dynamic_attribute</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-22 05:13:50</sys_created_on>
+        <sys_id>99626f9793a12a900b58f1d97bba1060</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>scalable_attribute_management_rented_from-&gt;scalable_attribute_management_source</sys_name>
+        <sys_package display_value="Scalable Attribute Management" source="x_1542811_scalab_0">e9c69fc293ed22900b58f1d97bba1045</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Scalable Attribute Management">e9c69fc293ed22900b58f1d97bba1045</sys_scope>
+        <sys_update_name>dynamic_attribute_99626f9793a12a900b58f1d97bba1060</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-22 05:13:50</sys_updated_on>
+    </dynamic_attribute>
+</record_update>

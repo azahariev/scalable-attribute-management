@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="dynamic_attribute_group">
+    <dynamic_attribute_group action="DELETE">
+        <active>true</active>
+        <description/>
+        <label>123</label>
+        <name>scalable_attribute_management_123</name>
+        <sys_class_name>dynamic_attribute_group</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-22 06:32:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>7e64b75b93e12a900b58f1d97bba1032</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>123</sys_name>
+        <sys_package display_value="Scalable Attribute Management" source="x_1542811_scalab_0">e9c69fc293ed22900b58f1d97bba1045</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Scalable Attribute Management">e9c69fc293ed22900b58f1d97bba1045</sys_scope>
+        <sys_update_name>dynamic_attribute_group_7e64b75b93e12a900b58f1d97bba1032</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-22 06:32:58</sys_updated_on>
+    </dynamic_attribute_group>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Scalable Attribute Management">e9c69fc293ed22900b58f1d97bba1045</application>
+        <file_path/>
+        <instance_id>f7625ff23b9c6a10a36804e0b5e45a8e</instance_id>
+        <instance_name>dev302733</instance_name>
+        <name>dynamic_attribute_group_7e64b75b93e12a900b58f1d97bba1032</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="dynamic_attribute_group"><dynamic_attribute_group action="INSERT_OR_UPDATE"><active>true</active><description/><label>123</label><name>scalable_attribute_management_123</name><sys_class_name>dynamic_attribute_group</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-22 06:32:58</sys_created_on><sys_domain>global</sys_domain><sys_domain_path/><sys_id>7e64b75b93e12a900b58f1d97bba1032</sys_id><sys_mod_count>0</sys_mod_count><sys_name>123</sys_name><sys_package display_value="Scalable Attribute Management" source="x_1542811_scalab_0">e9c69fc293ed22900b58f1d97bba1045</sys_package><sys_policy/><sys_scope display_value="Scalable Attribute Management">e9c69fc293ed22900b58f1d97bba1045</sys_scope><sys_update_name>dynamic_attribute_group_7e64b75b93e12a900b58f1d97bba1032</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-22 06:32:58</sys_updated_on></dynamic_attribute_group></record_update>]]></payload>
+        <payload_hash>756077343</payload_hash>
+        <record_name>123</record_name>
+        <reverted_from/>
+        <source>0640af42932162900b58f1d97bba102c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-22 06:32:58</sys_created_on>
+        <sys_id>a8943b9393252a900b58f1d97bba10ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196f6b1f0e80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-22 06:32:58</sys_updated_on>
+        <type>Dynamic Attribute Group</type>
+        <update_guid>ac943b9372252a90337f875880726fee</update_guid>
+        <update_guid_history>ac943b9372252a90337f875880726fee:756077343</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="123">7a3d7f9f93252a900b58f1d97bba10b9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-22 07:10:48</sys_created_on>
+        <sys_db_object display_value="" name="dynamic_attribute_group">dynamic_attribute_group</sys_db_object>
+        <sys_id>3b8adf9fc731470682bbc2079f54db64</sys_id>
+        <sys_metadata>7e64b75b93e12a900b58f1d97bba1032</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>123</sys_name>
+        <sys_package display_value="Scalable Attribute Management" source="x_1542811_scalab_0">e9c69fc293ed22900b58f1d97bba1045</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Scalable Attribute Management">e9c69fc293ed22900b58f1d97bba1045</sys_scope>
+        <sys_scope_delete display_value="">39dbb6283add4724ac764ca1fd6ad2c4</sys_scope_delete>
+        <sys_update_name>dynamic_attribute_group_7e64b75b93e12a900b58f1d97bba1032</sys_update_name>
+        <sys_update_version display_value="dynamic_attribute_group_7e64b75b93e12a900b58f1d97bba1032">a8943b9393252a900b58f1d97bba10ef</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-22 07:10:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

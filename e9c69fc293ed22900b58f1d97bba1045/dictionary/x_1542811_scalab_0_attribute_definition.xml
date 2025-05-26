@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="0ba2e786932162900b58f1d97bba102c" label="Attribute Definition" max_length="40" name="x_1542811_scalab_0_attribute_definition" type="collection">
-        <element attributes="ref_auto_completer=AJAXTableCompleter,ref_ac_columns=label,ref_ac_columns_search=true,ref_ac_display_value=false" label="Attributes" mandatory="true" max_length="100" name="attribute" reference="dynamic_attribute" reference_qual="javascript: 'sys_idIN' + new AttributeDefinitionHelper().getAttributeSysIds(current.category);" type="glide_list" use_reference_qualifier="advanced"/>
+        <element attributes="ref_auto_completer=AJAXTableCompleter,ref_ac_columns=label,ref_ac_columns_search=true,ref_ac_display_value=false" label="Attributes" mandatory="true" max_length="100" name="attribute" reference="dynamic_attribute" reference_qual="javascript: 'sys_idIN' + new AttributeDefinitionHelper().getAttributeSysIds(current.attribute_group,current.category);" type="glide_list" use_reference_qualifier="advanced"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element dependent="attribute" dependent_on_field="attribute" label="Attribute Value" max_length="5000" name="attribute_value" read_only="true" type="dynamic_attribute_store" use_dependent_field="true"/>
-        <element label="Category" mandatory="true" max_length="32" name="category" reference="dynamic_category" reference_qual="active=true" reference_qual_condition="active=true" type="reference"/>
+        <element label="Category" mandatory="true" max_length="32" name="category" reference="dynamic_category" reference_qual="javascript: 'sys_idIN' + new AttributeDefinitionHelper().getCategorySysIds(current.attribute_group);" type="reference" use_reference_qualifier="advanced"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element label="Configuration Item" mandatory="true" max_length="32" name="configuration_item" reference="cmdb_ci" reference_qual="javascript: &quot;sys_class_name=&quot; +current.category.name" type="reference" use_reference_qualifier="advanced"/>
-        <element attributes="encode_utf8=false" label="Attribute Group" max_length="32" name="attribute_group" reference="dynamic_attribute_group" type="reference"/>
+        <element attributes="encode_utf8=false" label="Attribute Group" mandatory="true" max_length="32" name="attribute_group" reference="dynamic_attribute_group" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <index name="index">
             <element name="attribute"/>
         </index>

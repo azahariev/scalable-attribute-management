@@ -40,7 +40,7 @@ AttributeDefinitionHelper.prototype = {
         var ids = attDef.attribute.split(',');
         var dynAtt = new GlideRecord('dynamic_attribute');
         dynAtt.addQuery('sys_id', 'IN', ids.join(','));
-		dynAtt.addActiveQuery();
+        dynAtt.addActiveQuery();
         dynAtt.query();
 
         var das = new GlideDynamicAttributeStore();
@@ -48,19 +48,15 @@ AttributeDefinitionHelper.prototype = {
         while (dynAtt.next()) {
             if (dynAtt.name == "scalable_attribute_management_table") {
                 das.setDynamicAttributeValue(dynAtt.getDisplayValue(), "sys_user");
-            }
-			else if (dynAtt.name == "scalable_attribute_management_sys_id") {
+            } else if (dynAtt.name == "scalable_attribute_management_sys_id") {
                 das.setDynamicAttributeValue(dynAtt.getDisplayValue(), gs.getUserID());
-            }
-			else if (dynAtt.name == "scalable_attribute_management_display_name") {
+            } else if (dynAtt.name == "scalable_attribute_management_display_name") {
                 das.setDynamicAttributeValue(dynAtt.getDisplayValue(), gs.getUserDisplayName());
+            } else if (dynAtt.name == "scalable_attribute_management_date") {
+                das.setDynamicAttributeValue(dynAtt.getDisplayValue(), new GlideDate().getDisplayValue());
+            } else {
+                das.setDynamicAttributeValue(dynAtt.getDisplayValue(), "THIS IS NOT DEFINED YET");
             }
-			else if (dynAtt.name == "scalable_attribute_management_date") {
-				das.setDynamicAttributeValue(dynAtt.getDisplayValue(), new GlideDate().getDisplayValue());
-			}
-			else {
-				das.setDynamicAttributeValue(dynAtt.getDisplayValue(), "THIS IS NOT DEFINED YET");
-			}
         }
 
         attDef.setValue('attribute_value', "");
@@ -68,10 +64,27 @@ AttributeDefinitionHelper.prototype = {
         attDef.update();
     },
 
-    getAttributeSysIds: function(inputCategory) {
+    getCategorySysIds: function(inputGroup) {
+        var results = '';
+
+        var dynCGM = new GlideRecord('dynamic_category_group_member');
+        dynCGM.addQuery('group', inputGroup);
+        dynCGM.query();
+
+        while (dynCGM.next()) {
+            if (dynCGM.category) {
+                results += (dynCGM.category.toString() + ',');
+            }
+        }
+
+        return results;
+    },
+
+    getAttributeSysIds: function(inputGroup, inputCategory) {
         var results = '';
 
         var dynCAM = new GlideRecord('dynamic_category_attribute_member');
+        dynCAM.addQuery('attribute.group', inputGroup);
         dynCAM.addQuery('category', inputCategory);
         dynCAM.query();
 
@@ -84,19 +97,70 @@ AttributeDefinitionHelper.prototype = {
         return results;
     },
 
+    getAttributeDefinitions: function(recordSysID) {
+        var results = [];
+
+        var attDefinition = new GlideRecord('x_1542811_scalab_0_attribute_definition');
+        attDefinition.addQuery('attribute_value', 'CONTAINS', recordSysID);
+        attDefinition.query();
+
+        while (attDefinition.next()) {
+            results.push(attDefinition.sys_id.toString());
+        }
+
+        return results.join(',');
+
+    },
+
+
+
+    applyTemplatesIfNoAttributesExist: function(groupSysId) {
+        if (!groupSysId) {
+            gs.error("Group sys_id is required.");
+            return;
+        }
+
+        // Step 1: Check if any dynamic_attribute records exist for the group
+        var existingAttrGR = new GlideRecord('dynamic_attribute');
+        existingAttrGR.addQuery('group', groupSysId);
+        existingAttrGR.query();
+        if (existingAttrGR.hasNext()) {
+            gs.info("Dynamic attributes already exist for group: " + groupSysId);
+            return;
+        }
+
+        // Step 2: Get all templates for the dynamic_attribute table
+        var templateGR = new GlideRecord('sys_template');
+        templateGR.addQuery('table', 'dynamic_attribute');
+        templateGR.query();
+
+        // Step 3: Apply each template to create new dynamic_attribute records
+        while (templateGR.next()) {
+            var newAttrGR = new GlideRecord('dynamic_attribute');
+            GlideTemplate.get(templateGR.getUniqueValue()).apply(newAttrGR);
+            newAttrGR.setValue('group', groupSysId); // Set the group field
+			newAttrGR.setValue('name', templateGR.name.replace("STANDARD_TEMPLATE_","")); // Set the name field
+            newAttrGR.insert();
+        }
+
+        gs.info("Templates applied and new dynamic_attribute records created for group: " + groupSysId);
+    },
+
+
+
     type: 'AttributeDefinitionHelper'
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-05-18 14:43:17</sys_created_on>
         <sys_id>1ebd389e932962900b58f1d97bba10bd</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>AttributeDefinitionHelper</sys_name>
         <sys_package display_value="Scalable Attribute Management" source="x_1542811_scalab_0">e9c69fc293ed22900b58f1d97bba1045</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Scalable Attribute Management">e9c69fc293ed22900b58f1d97bba1045</sys_scope>
         <sys_update_name>sys_script_include_1ebd389e932962900b58f1d97bba10bd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-18 18:48:39</sys_updated_on>
+        <sys_updated_on>2025-05-22 07:38:47</sys_updated_on>
     </sys_script_include>
 </record_update>

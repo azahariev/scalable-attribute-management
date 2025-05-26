@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="dynamic_attribute_group">
+    <dynamic_attribute_group action="DELETE">
+        <active>true</active>
+        <description/>
+        <label>Rented to</label>
+        <name>scalable_attribute_management_cmdb_attributes</name>
+        <sys_class_name>dynamic_attribute_group</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-18 08:12:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>34b4e74a932162900b58f1d97bba10d9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Rented to</sys_name>
+        <sys_package display_value="Scalable Attribute Management" source="x_1542811_scalab_0">e9c69fc293ed22900b58f1d97bba1045</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Scalable Attribute Management">e9c69fc293ed22900b58f1d97bba1045</sys_scope>
+        <sys_update_name>dynamic_attribute_group_34b4e74a932162900b58f1d97bba10d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-20 06:55:20</sys_updated_on>
+    </dynamic_attribute_group>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Scalable Attribute Management">e9c69fc293ed22900b58f1d97bba1045</application>
+        <file_path/>
+        <instance_id>f7625ff23b9c6a10a36804e0b5e45a8e</instance_id>
+        <instance_name>dev302733</instance_name>
+        <name>dynamic_attribute_group_34b4e74a932162900b58f1d97bba10d9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="dynamic_attribute_group"><dynamic_attribute_group action="INSERT_OR_UPDATE"><active>true</active><description/><label>Rented to</label><name>scalable_attribute_management_cmdb_attributes</name><sys_class_name>dynamic_attribute_group</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-18 08:12:05</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>34b4e74a932162900b58f1d97bba10d9</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Rented to</sys_name><sys_package display_value="Scalable Attribute Management" source="x_1542811_scalab_0">e9c69fc293ed22900b58f1d97bba1045</sys_package><sys_policy/><sys_scope display_value="Scalable Attribute Management">e9c69fc293ed22900b58f1d97bba1045</sys_scope><sys_update_name>dynamic_attribute_group_34b4e74a932162900b58f1d97bba10d9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-20 06:55:20</sys_updated_on></dynamic_attribute_group></record_update>]]></payload>
+        <payload_hash>1344607742</payload_hash>
+        <record_name>Rented to</record_name>
+        <reverted_from/>
+        <source>0640af42932162900b58f1d97bba102c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-20 06:55:20</sys_created_on>
+        <sys_id>fc86a17293a926900b58f1d97bba10f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196ec79b3670000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-20 06:55:20</sys_updated_on>
+        <type>Dynamic Attribute Group</type>
+        <update_guid>7486a172a2a9269017977faf9f0f77f5</update_guid>
+        <update_guid_history>7486a172a2a9269017977faf9f0f77f5:1344607742,63af2dd67c6d6290f39f78cc10cd4736:211817054,11e4abc6aa216290bb487dc34cc06c00:-911063103</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Rented to">ff80a39393a12a900b58f1d97bba10d0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-22 05:05:33</sys_created_on>
+        <sys_db_object display_value="" name="dynamic_attribute_group">dynamic_attribute_group</sys_db_object>
+        <sys_id>484f8ef85db94e59a630a452c7fddd69</sys_id>
+        <sys_metadata>34b4e74a932162900b58f1d97bba10d9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Rented to</sys_name>
+        <sys_package display_value="Scalable Attribute Management" source="x_1542811_scalab_0">e9c69fc293ed22900b58f1d97bba1045</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Scalable Attribute Management">e9c69fc293ed22900b58f1d97bba1045</sys_scope>
+        <sys_scope_delete display_value="">39dbb6283add4724ac764ca1fd6ad2c4</sys_scope_delete>
+        <sys_update_name>dynamic_attribute_group_34b4e74a932162900b58f1d97bba10d9</sys_update_name>
+        <sys_update_version display_value="dynamic_attribute_group_34b4e74a932162900b58f1d97bba10d9">fc86a17293a926900b58f1d97bba10f5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-22 05:05:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

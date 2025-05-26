@@ -10,6 +10,26 @@
         <query_with><![CDATA[(function refineQuery(current, parent) {
 
 	// Add your code here, such as current.addQuery(field, value);
+	var attDefSysIDs = new x_1542811_scalab_0.AttributeDefinitionHelper().getAttributeDefinitions(parent.sys_id);
+
+
+	/*
+	var results = [];
+
+        var attDefinition = new GlideRecord('x_1542811_scalab_0_attribute_definition');
+        attDefinition.addQuery('attribute_value', 'CONTAINS', parent.sys_id);
+        attDefinition.query();
+
+
+        while (attDefinition.next()) {
+            results.push(attDefinition.sys_id.toString());
+        }
+
+
+	gs.info("attDefSysIDs: " + results.join(','));
+
+	*/
+	current.addQuery('sys_id','IN',attDefSysIDs);
 
 })(current, parent);]]></query_with>
         <reference_field/>
@@ -19,14 +39,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-05-18 18:56:05</sys_created_on>
         <sys_id>b597755693ad62900b58f1d97bba10ec</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Additional CIs</sys_name>
         <sys_package display_value="Scalable Attribute Management" source="x_1542811_scalab_0">e9c69fc293ed22900b58f1d97bba1045</sys_package>
         <sys_policy/>
         <sys_scope display_value="Scalable Attribute Management">e9c69fc293ed22900b58f1d97bba1045</sys_scope>
         <sys_update_name>sys_relationship_b597755693ad62900b58f1d97bba10ec</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-18 18:56:05</sys_updated_on>
+        <sys_updated_on>2025-05-20 06:51:22</sys_updated_on>
     </sys_relationship>
     <sys_translated_text action="delete_multiple" query="documentkey=b597755693ad62900b58f1d97bba10ec"/>
     <sys_ui_related_list_relationship_entry action="INSERT_OR_UPDATE">
